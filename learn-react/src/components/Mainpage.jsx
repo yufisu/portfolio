@@ -1,5 +1,8 @@
 import React from "react";
 import { BiPlus,BiLogoReact } from 'react-icons/bi';
+import Navbar from "./Navbar";
+
+
 
 const Mainpage = () => {
   return (

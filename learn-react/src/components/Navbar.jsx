@@ -4,17 +4,18 @@ import { BsPerson } from 'react-icons/bs';
 import { FaRegEye } from 'react-icons/fa';
 import { BsMailbox } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
   return (
     <div className="navbar bg-[#00df9a] h-screen w-14 flex flex-col items-center justify-between">
       <div className="main-logo h-14 flex-1">
-        <img src="../images/yufis.png" alt="" className='cursor-pointer'/>
+          <img src="../images/yufis.png" alt="yufis" className='cursor-pointer'/>
       </div>
       <div className="pages-bar flex-1 flex flex-col justify-center">
         <div className="page-icons">
-          <BiHome className="text-3xl mb-5 cursor-pointer"/>
+            <BiHome className="text-3xl mb-5 cursor-pointer"/>
         </div>
         <div className="page-icons">
           <BsPerson className="text-3xl mb-5 cursor-pointer"/>

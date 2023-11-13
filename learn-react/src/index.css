@@ -3,8 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "sf-regular";
+  font-family: "sf-medium";
   src: url(../fonts/sf-pro/SFPRODISPLAYMEDIUM.OTF);
+}
+@font-face {
+  font-family: "sf-regular";
+  src: url(../fonts/sf-pro/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+  font-family: "sf-light-italic";
+  src: url(../fonts/sf-pro/SFPRODISPLAYLIGHTITALIC.OTF);
+}
+@font-face {
+  font-family: "sf-thin-italic";
+  src: url(../fonts/sf-pro/SFPRODISPLAYTHINITALIC.OTF);
+} {
+  
 }
 
 body{

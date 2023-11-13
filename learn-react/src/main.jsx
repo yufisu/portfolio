@@ -8,9 +8,8 @@ import Mainpage from './components/Mainpage.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App/>
-    <div className='flex font-["sf-regular"]'>
+    <div className='flex font-["sf-medium"]'>
     <Navbar/>
-    <Mainpage/>
     </div>
   </React.StrictMode>,
 )

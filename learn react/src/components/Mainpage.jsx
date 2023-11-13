@@ -2,8 +2,6 @@ import React from "react";
 import { BiPlus,BiLogoReact } from 'react-icons/bi';
 import Navbar from "./Navbar";
 
-
-
 const Mainpage = () => {
   return (
     <div className="main-page h-screen w-screen flex flex-row items-center justify-between">
